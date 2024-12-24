@@ -22,7 +22,7 @@ const { NotImplementedError } = require('../extensions/index.js');
  * }
  *
  */
- function getDNSStats(domains) {
+function getDNSStats(domains) {
   let stats = {};
   domains.map(item => {
     let arr = item.split('.').reverse();
